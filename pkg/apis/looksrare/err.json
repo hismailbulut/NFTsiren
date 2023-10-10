@@ -1,0 +1,18 @@
+{
+    "success": false,
+    "data": null,
+    "message": "Invalid queries, check 'errors' property for more info.",
+    "errors": [
+        {
+            "target": {
+                "address": "dfnwİNGFğrong"
+            },
+            "value": "dfnwİNGFğrong",
+            "property": "address",
+            "children": [],
+            "constraints": {
+                "isEthereumAddress": "address must be a checksummed Ethereum address"
+            }
+        }
+    ]
+}
