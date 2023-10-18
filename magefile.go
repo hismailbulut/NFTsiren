@@ -269,7 +269,7 @@ func build(release bool) {
 		run(env, "gogio",
 			"-target", target,
 			"-o", join(outdir, output),
-			"-icon", join(SOURCE_DIR, "assets/images/icon.png"),
+			"-icon", join(SOURCE_DIR, "assets/images/nftsiren.png"),
 			"-appid", "com.nftsiren.app",
 			"-version", strconv.Itoa(getVersionNumber()),
 			"-ldflags", joinargs(ldflags...),
